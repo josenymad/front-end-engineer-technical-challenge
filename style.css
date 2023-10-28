@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Jost', sans-serif;
+    margin: 0;
 }
 
 header {
     display: flex;
     color: #004AAD;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -18,24 +19,57 @@ header {
 }
 
 .header__title {
-    margin-top: 45px;
+    margin: 45px 0 0;
 }
 
 .header__navbar__list {
     list-style: none;
     padding-inline-start: 0;
     text-align: right;
-    margin-top: 0.4em;
+    margin: 0.4em;
 }
 
 .header__navbar__list-item {
-   margin-top: 0.3em;
+    margin-top: 0.3em;
 }
 
-.header__navbar__list-link {
+.header__navbar__list__book-link {
     background-color: #004AAD;
     color: #ffffff;
     border-radius: 15px;
     padding: 0.1em 0.6em;
     font-weight: 500;
+}
+
+.header__navbar__list__email-link {
+    color: #004AAD;
+    text-decoration: none;
+}
+
+main {
+    background-color: #D1D4F0;
+    color: #0036AD;
+}
+
+.main__top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__top-section__text {
+    margin: 1em;
+}
+
+.main__top-section__paragraph {
+    font-size: 1.5em;
+}
+
+.main__top-section__paragraph:last-of-type {
+    font-size: 1.3em;
+}
+
+.main__section__image {
+    height: 300px;
+    margin: 1em;
+    border-radius: 5px;
 }
