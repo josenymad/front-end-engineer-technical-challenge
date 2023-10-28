@@ -24,16 +24,18 @@ header {
 .header__navbar__list {
     list-style: none;
     padding-inline-start: 0;
-    margin-top: 0.5em;
     text-align: right;
+    margin-top: 0.4em;
 }
 
-.header__navbar__list-button {
+.header__navbar__list-item {
+   margin-top: 0.3em;
+}
+
+.header__navbar__list-link {
     background-color: #004AAD;
     color: #ffffff;
-    border-style: none;
     border-radius: 15px;
-    padding: 0.5em;
-    font-family: 'Jost', sans-serif;
+    padding: 0.1em 0.6em;
     font-weight: 500;
 }
