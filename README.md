@@ -17,7 +17,9 @@ I then decided on what else the design would need:
 6. A form for the user to submit their details.
 7. A footer with links to social media platforms, I used [Icons8](https://icons8.com/icons) for this.
 
-It's worth mentioning that I also used a few similar websites for inspiration, including [Makers](https://makers.tech/), [Command Shift](https://www.commandshift.co/) and [General Assembly](https://generalassemb.ly/education/front-end-web-development/london). 
+It's worth mentioning that I also used a few similar websites for inspiration, including [Makers](https://makers.tech/), [Command Shift](https://www.commandshift.co/) and [General Assembly](https://generalassemb.ly/education/front-end-web-development/london).
+
+I then used [Figma](https://www.figma.com/) to make the design, you can see the finished version below:
 
 [Front End Engineer Technical Challenge Design copy-compressed.pdf](https://github.com/josenymad/front-end-engineer-technical-challenge/files/13196263/Front.End.Engineer.Technical.Challenge.Design.copy-compressed.pdf)
 
