@@ -21,5 +21,6 @@ It's worth mentioning that I also used a few similar websites for inspiration, i
 
 I then used [Figma](https://www.figma.com/) to make the design, you can see the finished version below:
 
-[Front End Engineer Technical Challenge Design](./images/Front%20End%20Engineer%20Technical%20Challenge%20Design.pdf)
+[Front End Engineer Technical Challenge Design-compressed.pdf](https://github.com/josenymad/front-end-engineer-technical-challenge/files/13196601/Front.End.Engineer.Technical.Challenge.Design-compressed.pdf)
+
 
