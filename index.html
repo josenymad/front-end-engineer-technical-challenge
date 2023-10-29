@@ -14,7 +14,7 @@
       <nav class="header__navbar">
         <ul class="header__navbar__list">
           <li class="header__navbar__list-item">
-            <a class="header__navbar__list__book-link">BOOK NOW</a>
+            <a href="#name" class="header__navbar__list__book-link">BOOK NOW</a>
           </li>
           <li class="header__navbar__list-item">01611234567</li>
           <li class="header__navbar__list-item">
@@ -46,6 +46,9 @@
             Our full-time course teaches you everything you need to start a new
             career in tech
           </p>
+          <p class="main__top-section__paragraph">
+            90% of our graduates are hired within 3 months
+          </p>
         </div>
         <img
           src="./images/learning image 1MB.jpg"
@@ -55,7 +58,7 @@
       </section>
       <section class="main__mid-section">
         <div class="main__mid-section__curriculum">
-          <h2 class="main__mid-section__title">Includes:</h2>
+          <h2 class="main__mid-section__header">Includes:</h2>
           <ul class="main__mid-section__list">
             <li class="main__mid-section__topic">HTML</li>
             <li class="main__mid-section__topic">CSS</li>
@@ -70,8 +73,8 @@
           alt="image of code review"
           class="main__mid-section__image"
         />
-        <div class="main__mid-section__testimonials">
-          <h2 class="main__mid-section__title testimonials-title">
+        <div class="main__mid-section__grid">
+          <h2 class="main__mid-section__header testimonials-header">
             Check out our alumni testimonials:
           </h2>
           <p class="main__mid-section__testimonial">
@@ -84,7 +87,69 @@
           </p>
         </div>
       </section>
-      <section class="main__bottom-section"></section>
+      <section class="main__bottom-section">
+        <img
+          src="./images/meeting 1MB.jpg"
+          alt="photo of students"
+          class="main__bottom-section__image"
+        />
+        <div class="main__bottom-section__apply">
+          <h2 class="main__bottom-section__header">
+            Are you ready to take the next step?
+          </h2>
+          <p class="main__bottom-section__text">
+            Fill out the application form below
+          </p>
+          <div class="main__bottom-section__grid">
+            <form class="main__bottom-section__form">
+              <label class="main__bottom-section__label" for="name"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                required
+                class="main__bottom-section__input"
+              />
+              <label class="main__bottom-section__label" for="email"
+                >Email</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="newstudent@pixu.com"
+                required
+                class="main__bottom-section__input"
+              />
+              <label class="main__bottom-section__label" for="phone"
+                >Phone</label
+              >
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                required
+                placeholder="Mobile Number"
+                class="main__bottom-section__input"
+              />
+              <input type="submit" class="main__bottom-section__submit" value="SUBMIT">
+            </form>
+            <img
+              src="./images/Trustpilot.png"
+              alt="Trustpilot reviews image"
+              class="main__bottom-section__reviews"
+            />
+            <img
+              src="./images/google_reviews.jpeg"
+              alt="Google reviews image"
+              class="main__bottom-section__reviews"
+            />
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
