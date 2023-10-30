@@ -19,14 +19,14 @@ header {
 }
 
 .header__logo {
-    height: 11vh;
+    height: 6vw;
     width: 16vw;
     object-fit: cover;
-    object-position: 50% 47%;
+    object-position: 50% 43%;
 }
 
 .header__title {
-    margin: 45px 0 0;
+    margin: 3.6vw 0 0;
     font-size: 2.2vw;
 }
 
@@ -34,11 +34,12 @@ header {
     list-style: none;
     padding-inline-start: 0;
     text-align: right;
-    margin: 0.4em;
+    margin: 1vw;
 }
 
 .header__navbar__list-item {
-    margin-top: 0.3em;
+    margin-top: 0.3vw;
+    font-size: 1.2vw;
 }
 
 .header__navbar__list-item:first-child>a {
@@ -211,17 +212,21 @@ footer {
 
 .footer__links {
     list-style: none;
-    margin: 0 1em;
     padding: 1em;
+}
+
+.footer__list-item {
+    margin: 1em;
 }
 
 .footer__links a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 1.1vw;
 }
 
 .footer__logo {
-    height: 150px;
+    width: 15vw;
 }
 
 .footer__socials {
