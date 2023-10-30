@@ -27,6 +27,7 @@ header {
 
 .header__title {
     margin: 45px 0 0;
+    font-size: 2.2vw;
 }
 
 .header__navbar__list {
@@ -166,7 +167,7 @@ main {
 
 .main__bottom-section__input {
     padding: 0.5em;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.9em;
     border-radius: 15px;
     border: 1px solid #004AAD;
     font-size: 1.2vw;
