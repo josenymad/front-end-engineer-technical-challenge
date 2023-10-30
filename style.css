@@ -37,7 +37,7 @@ header {
     margin-top: 0.3em;
 }
 
-.header__navbar__list__book-link {
+.header__navbar__list-item:first-child > a {
     background-color: #004AAD;
     color: #ffffff;
     border-radius: 15px;
@@ -46,7 +46,7 @@ header {
     text-decoration: none;
 }
 
-.header__navbar__list__email-link {
+.header__navbar__list-item:last-child > a {
     color: #004AAD;
     text-decoration: none;
 }
@@ -132,6 +132,7 @@ main {
     column-gap: 3em;
     text-align: center;
     margin: 0 auto;
+    max-height: 415px;
 }
 
 .main__bottom-section__grid>hgroup {
@@ -189,4 +190,20 @@ main {
 
 .main__bottom-section__reviews {
     margin: auto;
+}
+
+footer {
+    background-color: #004AAD;
+    color: #ffffff;
+}
+
+.footer__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.footer__list a {
+    color: #ffffff;
+    text-decoration: none;
 }
