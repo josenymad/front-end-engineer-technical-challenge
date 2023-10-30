@@ -188,11 +188,11 @@ main {
 }
 
 [alt="Trustpilot reviews"] {
-    height: 150px
+    width: 20vw;    
 }
 
 [alt="Google reviews"] {
-    height: 100px;
+    width: 25vw;
 }
 
 .main__bottom-section__reviews {
