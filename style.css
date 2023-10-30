@@ -137,7 +137,7 @@ main {
 .main__bottom-section__grid {
     display: grid;
     grid-template: repeat(3, 1fr) / 1fr 1fr;
-    column-gap: 3em;
+    column-gap: 3vw;
     text-align: center;
     margin: 0 auto;
     max-height: 415px;
@@ -189,7 +189,7 @@ main {
 }
 
 [alt="Trustpilot reviews"] {
-    width: 20vw;    
+    width: 19vw;    
 }
 
 [alt="Google reviews"] {
@@ -235,4 +235,50 @@ footer {
 
 .footer__social-link {
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logo {
+        height: 8vw;
+        width: 20vw;
+    }
+
+    .header__title {
+        margin: 1vw 0 0;
+    }
+
+    .header__navbar__list {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        height: 8vw;
+        object-fit: cover;
+        order: -1;
+    }
+
+    .footer__socials {
+        margin: auto;
+        order: -1;
+    }
+
+    .footer__links {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__list-item {
+        margin: 0;
+    }
 }
