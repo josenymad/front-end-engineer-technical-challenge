@@ -37,7 +37,7 @@ header {
     margin-top: 0.3em;
 }
 
-.header__navbar__list-item:first-child > a {
+.header__navbar__list-item:first-child>a {
     background-color: #004AAD;
     color: #ffffff;
     border-radius: 15px;
@@ -46,7 +46,7 @@ header {
     text-decoration: none;
 }
 
-.header__navbar__list-item:last-child > a {
+.header__navbar__list-item:last-child>a {
     color: #004AAD;
     text-decoration: none;
 }
@@ -195,15 +195,30 @@ main {
 footer {
     background-color: #004AAD;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer__list {
+.footer__links {
     list-style: none;
-    margin: 0 auto;
+    margin: 0 1em;
     padding: 1em;
 }
 
-.footer__list a {
+.footer__links a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__logo {
+    height: 150px;
+}
+
+.footer__socials {
+    margin-right: 1em;
+}
+
+.footer__social-link {
     text-decoration: none;
 }
