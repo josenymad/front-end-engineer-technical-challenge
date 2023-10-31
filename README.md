@@ -22,3 +22,7 @@ It's worth mentioning that I also used a few similar websites for inspiration, i
 I then used [Figma](https://www.figma.com/) to make the design, you can see the finished version below:
 
 [Front End Engineer Technical Challenge Design-compressed_1.pdf](https://github.com/josenymad/front-end-engineer-technical-challenge/files/13207313/Front.End.Engineer.Technical.Challenge.Design-compressed_1.pdf)
+
+## Development
+
+I've used a combination of CSS Flexbox and Grid to structure the site and position each element as per the design. Detailed manipulation of the box model was essential to master the spacing and layout of each element and section. To make the site responsive, I used `vw` measurements so that fonts and images would shrink and grow relative to the screen size. As such, I only had to write 2 media query breakpoints to cater for screen sizes smaller than 600px and 500px.
