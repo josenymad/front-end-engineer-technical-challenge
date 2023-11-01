@@ -3,9 +3,9 @@
 For this technical challenge, I was tasked with designing a website, then building it on HTML and CSS.
 I opted for the option of designing a site which lets a user book onto a training course. 
 
-## Design
+## Design & Planning
 
-I first created a logo for the course using [Canva](https://www.canva.com/). The blue colour I chose for this became the starting point for the colour palette which I worked with for the rest of the project. I used the [Eye Dropper](https://eyedropper.org/) Chrome extension tool to get the HEX code for this colour, then used an online tool called [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex) to get 10 hues of colour between the selected blue and white, which gave me my colour palette. I also used a [Colour Contrast Checker](https://colourcontrast.cc/) to make sure the colours I chose passed AAA accessibility standards when used in conjunction with each other.
+I first created a logo for the course using [Canva](https://www.canva.com/). The blue colour I chose for this became the starting point for the colour palette which I worked with for the rest of the project. I used the [Eye Dropper](https://eyedropper.org/) Chrome extension tool to get the HEX code for this colour, then used an online tool called [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex) to get 10 hues between the selected blue and white, which gave me my colour palette. I also used a [Colour Contrast Checker](https://colourcontrast.cc/) to make sure the colours I chose passed AAA accessibility standards when used in conjunction with each other.
 
 I then decided on what else the design would need:
 
@@ -25,7 +25,20 @@ I then used [Figma](https://www.figma.com/) to make the design, you can see the 
 
 ## Development
 
-I've used a combination of CSS Flexbox and Grid to structure the site and position each element as per the design. Detailed manipulation of the box model was essential to master the spacing and layout of each element, section and the site as a whole.
+Semantic HTML is fundamental for:
+
+- Accessibility
+- SEO
+- Readability and maintainability
+- Cross-Browser compatibility
+
+As such, I split the `body` of the webpage into a `header`, `main`, and a `footer`. Each of these was then split once more into other elements such as `section`. This laid out a template for me to flesh out the site and start adding more content using `img`, `nav`, `ul`, `li`, `a`, `p`, `h1`, `form`, `label`, `input` amongst others.
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/) is a very useful resource to learn more about semantic HTML and much more.
+
+I've used a combination of CSS Flexbox and CSS Grid to structure the site and position each element as per the design. Detailed manipulation of the box model was essential to master the spacing and layout of each element, every section, as well as the site as a whole.
+
+[CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [CSS Tricks - A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) are my go-to guides to remind me of the intricacies of both of these topics.
 
 To make the site responsive, I used `vw` measurements so that fonts and images would shrink and grow relative to the screen size. As such, I only had to write 2 media query breakpoints to cater for screen sizes smaller than 600px and 500px. I used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) extensively to test the site on screens of all sizes.
 
