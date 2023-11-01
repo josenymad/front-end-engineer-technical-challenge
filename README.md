@@ -25,4 +25,16 @@ I then used [Figma](https://www.figma.com/) to make the design, you can see the 
 
 ## Development
 
-I've used a combination of CSS Flexbox and Grid to structure the site and position each element as per the design. Detailed manipulation of the box model was essential to master the spacing and layout of each element and section. To make the site responsive, I used `vw` measurements so that fonts and images would shrink and grow relative to the screen size. As such, I only had to write 2 media query breakpoints to cater for screen sizes smaller than 600px and 500px.
+I've used a combination of CSS Flexbox and Grid to structure the site and position each element as per the design. Detailed manipulation of the box model was essential to master the spacing and layout of each element, section and the site as a whole.
+
+To make the site responsive, I used `vw` measurements so that fonts and images would shrink and grow relative to the screen size. As such, I only had to write 2 media query breakpoints to cater for screen sizes smaller than 600px and 500px. I used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) extensively to test the site on screens of all sizes.
+
+This tool was essential for me to visualise the box model of each element and figure out the style I needed to change in order for the design to be replicated.
+
+## Deployment
+
+I deployed the site using [Render](https://render.com/). You can check it out [here](https://front-end-engineer-technical-challenge.onrender.com/) 
+
+## Testing
+
+I used [BrowserStack](https://www.browserstack.com/) to test for cross browser compatibility. I also used Chrome Developer Tools to test on devices with a slower internet connection, to ensure media was compressed enough to not slow down loading and impact user experience.
