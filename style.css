@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-header {
+.header {
     display: flex;
     color: #004AAD;
     justify-content: space-between;
@@ -56,7 +56,7 @@ header {
     text-decoration: none;
 }
 
-main {
+.main {
     background: linear-gradient(#D1D4F0 75%, #ffffff 25%);
     color: #0036AD;
 }
@@ -201,7 +201,7 @@ main {
     margin: auto;
 }
 
-footer {
+.footer {
     background-color: #004AAD;
     color: #ffffff;
     display: flex;
@@ -282,102 +282,102 @@ footer {
     .footer__list-item {
         margin: 0;
     }
+}
 
-    @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
-        .header__title {
-            font-size: 4.4vw;
-        }
+    .header__title {
+        font-size: 4.4vw;
+    }
 
-        .header__navbar__list-item {
-            font-size: 2.3vw;
-        }
+    .header__navbar__list-item {
+        font-size: 2.3vw;
+    }
 
-        main>section {
-            flex-direction: column;
-        }
+    main>section {
+        flex-direction: column;
+    }
 
-        .main__top-section__paragraph {
-            font-size: 4vw;
-        }
+    .main__top-section__paragraph {
+        font-size: 4vw;
+    }
 
-        .main__top-section__paragraph:nth-of-type(5),
-        .main__top-section__paragraph:last-of-type {
-            font-size: 3.4vw;
-        }
+    .main__top-section__paragraph:nth-of-type(5),
+    .main__top-section__paragraph:last-of-type {
+        font-size: 3.4vw;
+    }
 
-        .main__top-section__image,
-        .main__mid-section__image,
-        .main__bottom-section__image {
-            margin: auto;
-            width: 90vw;
-        }
+    .main__top-section__image,
+    .main__mid-section__image,
+    .main__bottom-section__image {
+        margin: auto;
+        width: 90vw;
+    }
 
-        .main__mid-section__header {
-            font-size: 3.8vw;
-        }
+    .main__mid-section__header {
+        font-size: 3.8vw;
+    }
 
-        .main__mid-section__topic {
-            font-size: 3vw;
-        }
+    .main__mid-section__topic {
+        font-size: 3vw;
+    }
 
-        .main__mid-section__grid,
-        .main__mid-section__curriculum {
-            margin: auto;
-            min-width: 90vw;
-        }
+    .main__mid-section__grid,
+    .main__mid-section__curriculum {
+        margin: auto;
+        min-width: 90vw;
+    }
 
-        .main__mid-section__list {
-            display: flex;
-            justify-content: space-around;
-            list-style: none;
-            padding-inline-start: 0;
-        }
+    .main__mid-section__list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-inline-start: 0;
+    }
 
-        .main__mid-section__testimonial {
-            font-size: 3.2vw;
-            max-width: 30vw;
-        }
+    .main__mid-section__testimonial {
+        font-size: 3.2vw;
+        max-width: 30vw;
+    }
 
-        .main__bottom-section__grid {
-            grid-template: 0.5fr 1fr 1fr / 1fr 1fr;
-        }
+    .main__bottom-section__grid {
+        grid-template: 0.5fr 1fr 1fr / 1fr 1fr;
+    }
 
-        .main__bottom-section__header {
-            font-size: 4.2vw;
-        }
+    .main__bottom-section__header {
+        font-size: 4.2vw;
+    }
 
-        .main__bottom-section__text {
-            font-size: 3vw;
-        }
+    .main__bottom-section__text {
+        font-size: 3vw;
+    }
 
-        .main__bottom-section__form {
-            grid-column: span 2;
-            grid-row: span 1;
-        }
+    .main__bottom-section__form {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
 
-        .main__bottom-section__label {
-            font-size: 2.8vw;
-        }
+    .main__bottom-section__label {
+        font-size: 2.8vw;
+    }
 
-        .main__bottom-section__input {
-            font-size: 2.4vw;
-        }
+    .main__bottom-section__input {
+        font-size: 2.4vw;
+    }
 
-        .main__bottom-section__submit {
-            font: 500 2.6vw 'Jost', sans-serif;
-        }
+    .main__bottom-section__submit {
+        font: 500 2.6vw 'Jost', sans-serif;
+    }
 
-        [alt="Trustpilot reviews"] {
-            width: 35vw;
-        }
+    [alt="Trustpilot reviews"] {
+        width: 35vw;
+    }
 
-        [alt="Google reviews"] {
-            width: 45vw;
-        }
+    [alt="Google reviews"] {
+        width: 45vw;
+    }
 
-        .footer__links a {
-            font-size: 2.2vw;
-        }
+    .footer__links a {
+        font-size: 2.2vw;
     }
 }
